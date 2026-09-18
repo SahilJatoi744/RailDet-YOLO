@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository, please cite our paper (citation to be added
+  upon publication) and the underlying Ultralytics framework below.
+title: "Railway Wheel Defect Detection: A Lightweight YOLO-based Approach"
+type: software
+authors:
+  - name: "TODO: Add author name(s)"
+version: 0.1.0
+date-released: "2026-09-18"
+license: AGPL-3.0
+preferred-citation:
+  type: article
+  title: "TODO: Paper title (update upon publication)"
+  authors:
+    - name: "TODO: Add author name(s)"
+  year: 2026
+  status: "Manuscript in preparation / under review. Citation details will be added upon acceptance."
+
+references:
+  - type: software
+    title: Ultralytics YOLO
+    authors:
+      - given-names: Glenn
+        family-names: Jocher
+        affiliation: Ultralytics
+      - family-names: Qiu
+        given-names: Jing
+        affiliation: Ultralytics
+      - given-names: Ayush
+        family-names: Chaurasia
+        affiliation: Ultralytics
+    repository-code: "https://github.com/ultralytics/ultralytics"
+    url: "https://ultralytics.com"
+    license: AGPL-3.0
+    version: 8.4.51

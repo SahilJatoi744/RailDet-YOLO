@@ -1,0 +1,8 @@
+# Railway Wheel Defect Detection - Fault-Seg Dataset (829 images)
+path: ../datasets/fault-seg  # <-- set this to your local dataset root
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Cracks-Scratches', 'Discloration', 'Shelling', 'Wheel']

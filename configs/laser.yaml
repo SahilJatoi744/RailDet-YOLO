@@ -1,0 +1,8 @@
+# Railway Wheel Laser Defect Detection Dataset (7627 images)
+path: ../datasets/laser  # <-- set this to your local dataset root
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['fracture', 'spot']

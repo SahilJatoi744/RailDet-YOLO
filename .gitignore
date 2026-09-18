@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Training artifacts (large / machine-specific — do not commit)
+runs/
+outputs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.pb
+*.tflite
+
+# Datasets (bring your own, keep out of git)
+datasets/
+*.cache
+
+# Local generated dataset configs
+auto_generated_dataset.yaml
+
+# Metrics / benchmark result dumps (regenerate locally, or add explicitly if you want to publish results)
+*_results.json
+*_summary.csv
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+.venv/

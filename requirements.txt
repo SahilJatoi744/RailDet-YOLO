@@ -1,0 +1,12 @@
+# Core dependencies for training / evaluating the models in this repo.
+# The vendored ./ultralytics package is installed in editable mode (see README),
+# so `ultralytics` itself is not listed here as a PyPI dependency.
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.0
+opencv-python>=4.8.0
+pyyaml>=6.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+pillow>=10.0.0
+tqdm>=4.65.0
